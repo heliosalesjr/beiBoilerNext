@@ -8,12 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#7856ff'
+        primary: '#0069B4',
+        customBlue: '#0069B4'
       }
     },
   },
   plugins: [require("daisyui")],
           daisyui: {
-            themes: ["emerald"],
+            themes: ["pastel"],
           }
 }

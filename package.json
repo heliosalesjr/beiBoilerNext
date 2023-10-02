@@ -14,6 +14,7 @@
     "react-awesome-reveal": "^4.2.5",
     "react-daisyui": "^4.1.1",
     "react-dom": "latest",
+    "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"

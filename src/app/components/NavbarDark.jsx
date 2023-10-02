@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React from 'react'
 import useReadingProgress from '../hooks/useReadingProgress'
 
@@ -12,7 +13,12 @@ function NavbarDark() {
   return (
     <div className="navbar bg-base-100 sticky top-0 z-50">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl font-bold">BEĨ</a>
+        <Image
+          src="/images/logo-blue.png" // Caminho relativo à pasta 'public'
+          alt="Logo BEĨ"
+          width={70} // Largura desejada
+          height={70}
+        />
       </div>
      
       <div className="flex-none gap-2">
@@ -23,7 +29,7 @@ function NavbarDark() {
       </div>
       <span
         style={{ transform: `translateX(${completion - 100}%)` }}
-        className="absolute bg-yellow-400 h-1 w-full bottom-0"
+        className="absolute bg-customBlue h-1 w-full bottom-0"
       />
     </div>
     
