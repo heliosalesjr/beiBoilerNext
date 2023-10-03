@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 //import Link from 'next/link';
 //import NavbarDark from './components/NavbarDark';
 import CarouselHere from './components/CarouselHere';
-import CardCarousel from './components/CardCarousel';
+import CardList from './components/CardList';
 
 
 
@@ -25,7 +25,7 @@ export default function Home() {
           <Cardy /><Cardy /><Cardy />
       </div>
       
-      <CardCarousel />
+      <CardList />
     </>
   )
 }
