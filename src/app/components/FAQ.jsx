@@ -11,7 +11,7 @@ function FAQ() {
     <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between px-4 py-8">
       <div className="md:w-1/2">
         {/* Conteúdo da primeira coluna */}
-        <h1 className="text-5xl font-bold text-center">Materiais do Programa</h1>
+        <h1 className="text-5xl text-primary font-bold text-center">Materiais do Programa</h1>
         <p className="text-xl font-medium text-center mt-4">Saiba mais clicando no nome do material ao lado.</p>
         {/* Adicione sua imagem aqui, se necessário */}
       </div>
@@ -24,7 +24,7 @@ function FAQ() {
         >
           <input type="radio" name="my-accordion-3" />
           <div
-            className="collapse-title text-xl font-medium cursor-pointer"
+            className="collapse-title text-primary text-xl font-medium cursor-pointer"
             onClick={() => handleAccordionClick(1)}
           >
             Livro do Estudante
@@ -42,7 +42,7 @@ function FAQ() {
         >
           <input type="radio" name="my-accordion-3" />
           <div
-            className="collapse-title text-xl font-medium cursor-pointer"
+            className="collapse-title text-xl text-primary font-medium cursor-pointer"
             onClick={() => handleAccordionClick(2)}
           >
             Caderno do Educador
@@ -60,7 +60,7 @@ function FAQ() {
         >
           <input type="radio" name="my-accordion-3" />
           <div
-            className="collapse-title text-xl font-medium cursor-pointer"
+            className="collapse-title text-xl text-primary font-medium cursor-pointer"
             onClick={() => handleAccordionClick(3)}
           >
             Camada Digital

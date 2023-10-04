@@ -12,6 +12,8 @@ import SectionOne from './components/SectionOne';
 import './globals.css'
 import SectionHalf from './components/SectionHalf';
 import FeatureSection from './components/FeatureSection';
+//import { Divider } from 'react-daisyui';
+import Divider from './components/Divider';
 
 
 export default function Home() {
@@ -22,15 +24,17 @@ export default function Home() {
       
       <Hero />
       <SectionOne />
+      <Divider />
       <CardList />
+      <Divider/>
       <SectionHalf />
+      <Divider />
       <FeatureSection />
+      <Divider />
       <FAQ />
-      <CollapseHere />
+      <Divider />
       <CarouselHere />
-      <div className="flex flex-col items-center px-20 md:flex-row md:justify-center md:space-x-5 space-y-5">
-          <Cardy /><Cardy /><Cardy />
-      </div>
+      
       
       
     </>

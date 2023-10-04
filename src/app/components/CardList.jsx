@@ -8,7 +8,7 @@ import './custom.css'
 
 const CardList = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-5">
+    <div className="grid grid-cols-1 bg-gray-100 md:grid-cols-2 lg:grid-cols-4 gap-4 p-5">
       {/* Card 1 */}
       <div className="bg-white custom-border p-4 rounded-md shadow-md transition-transform hover:scale-105 md:col-span-2 relative">
         <div className="hidden lg:block bg-image-card absolute inset-0" style={{ backgroundImage: "url('/images/teste-ilustra4.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>

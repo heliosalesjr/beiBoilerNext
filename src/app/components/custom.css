@@ -1,15 +1,26 @@
 /* styles/custom.css */
 .custom-border {
     position: relative;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: box-shadow 0.3s ease;
+    border: 2px solid transparent;
   }
   
   .custom-border:hover {
-    box-shadow: 0 4px 6px rgba(3, 86, 175, 0.1), 0 1px 2px rgba(0, 123, 255, 0.1);
-    transition: box-shadow 0.3s ease;
+    border-image: linear-gradient(to right, #007bff, #0066ff);
+    border-image-slice: 1;
+    border-image-width: 2px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    transition: border-image-width 0.3s;
   }
-
+  
+  .custom-border:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 body{
     overflow-x: hidden;
 }

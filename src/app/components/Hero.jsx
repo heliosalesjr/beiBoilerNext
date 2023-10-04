@@ -8,8 +8,8 @@ function Hero() {
           <h1 className="text-5xl font-bold text-white">Aprendendo a Lidar com Dinheiro</h1>
           <p className="py-6 text-white">Olá, professor e professora! Seja bem-vindo e bem-vinda ao site de apoio da coleção Aprendendo a Lidar com Dinheiro: Educação Financeira. Nesta seção, há informações sobre o que são os sites “Aprendendo a Lidar com Dinheiro” e como estão organizados, facilitando a navegação e consulta. Vamos conhecê-los?
 </p>
-          <button className="btn btn-primary">
-            Get Started 
+          <button className="btn px-8 text-bold btn-primary">
+          ↓
           </button>
         </div>
       </div>
