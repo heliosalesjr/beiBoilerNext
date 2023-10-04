@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import React from 'react'
 import useReadingProgress from '../hooks/useReadingProgress'
-
+import './custom.css'
 
 
 function NavbarDark() {
@@ -11,7 +11,7 @@ function NavbarDark() {
     console.log('Link clicked');
   };
   return (
-    <div className="navbar bg-base-100 sticky top-0 z-50">
+    <div className="navbar bg-base-100 bg-white-500 sticky top-0 z-50">
       <div className="flex-1">
         <Image
           src="/images/logo-blue.png" // Caminho relativo à pasta 'public'

@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 //import NavbarDark from './components/NavbarDark';
 import CarouselHere from './components/CarouselHere';
 import CardList from './components/CardList';
-
+import './globals.css'
 
 
 export default function Home() {

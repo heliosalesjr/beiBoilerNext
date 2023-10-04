@@ -4,13 +4,14 @@ import { TbMathSymbols } from 'react-icons/tb';
 import { AiOutlineBook } from 'react-icons/ai';
 import { PiStepsDuotone } from 'react-icons/pi';
 import { BiSitemap, BiSlideshow } from 'react-icons/bi';
+import './custom.css'
 
 const CardList = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-5">
       {/* Card 1 */}
-      <div className="bg-white p-4 rounded-md shadow-md transition-transform hover:scale-105 md:col-span-2 relative">
-        <div className="hidden lg:block bg-image-card absolute inset-0" style={{ backgroundImage: "url('/images/teste-ilustra.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+      <div className="bg-white custom-border p-4 rounded-md shadow-md transition-transform hover:scale-105 md:col-span-2 relative">
+        <div className="hidden lg:block bg-image-card absolute inset-0" style={{ backgroundImage: "url('/images/teste-ilustra4.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         <div className="flex items-center mb-2 relative z-10">
           <div className="mr-2 text-2xl"> <BiSlideshow /> </div>
           <h1 className="text-xl font-bold">Como os sites estão estruturados?</h1>
@@ -19,7 +20,7 @@ const CardList = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="bg-white p-4 rounded-md shadow-md transition-transform hover:scale-105">
+      <div className="custom-border bg-white p-4 rounded-md shadow-md transition-transform hover:scale-105">
         <div className="flex items-center mb-2">
           <div className="mr-2 text-2xl"> <BiSitemap /> </div>
           <h1 className="text-xl font-bold">Introdução ao site</h1>
@@ -28,7 +29,7 @@ const CardList = () => {
       </div>
 
       {/* Card 3 */}
-      <div className="bg-white p-4 rounded-md shadow-md transition-transform hover:scale-105">
+      <div className="bg-white custom-border p-4 rounded-md shadow-md transition-transform hover:scale-105">
         <div className="flex items-center mb-2">
           <div className="mr-2 text-2xl"> <MdOutlineHomeWork /> </div>
           <h1 className="text-xl font-bold">Atividade do Projeto</h1>
@@ -37,7 +38,7 @@ const CardList = () => {
       </div>
 
       {/* Card 4 */}
-      <div className="bg-white p-4 rounded-md shadow-md transition-transform hover:scale-105">
+      <div className="bg-white p-4 custom-border rounded-md shadow-md transition-transform hover:scale-105">
         <div className="flex items-center mb-2">
           <div className="mr-2 text-2xl"> <TbMathSymbols /> </div>
           <h1 className="text-xl font-bold">Matemática e Educação Financeira</h1>
@@ -46,7 +47,7 @@ const CardList = () => {
       </div>
 
       {/* Card 5 */}
-      <div className="bg-white p-4 rounded-md shadow-md transition-transform hover:scale-105">
+      <div className="bg-white p-4 custom-border rounded-md shadow-md transition-transform hover:scale-105">
         <div className="flex items-center mb-2">
           <div className="mr-2 text-2xl"> <AiOutlineBook /> </div>
           <h1 className="text-xl font-bold">Recursos Didáticos</h1>
@@ -55,7 +56,7 @@ const CardList = () => {
       </div>
 
       {/* Card 6 */}
-      <div className="bg-white p-4 rounded-md shadow-md transition-transform hover:scale-105 md:col-span-2 relative">
+      <div className="bg-white custom-border p-4 rounded-md shadow-md transition-transform hover:scale-105 md:col-span-2 relative">
         <div className="hidden lg:block bg-image-card-2 absolute inset-0" style={{ backgroundImage: "url('/images/teste-ilustra2.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         <div className="flex items-center mb-2 relative z-10">
           <div className="mr-2 text-2xl"> <PiStepsDuotone /> </div>

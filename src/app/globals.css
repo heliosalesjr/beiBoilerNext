@@ -2,22 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
 
-/* base styles */
-body {
-    background: #ebf0fa;
-    @apply text-gray-700 m-8;
-  }
-  h1, h2 {
-    @apply font-bold text-primary text-lg;
-  }
-  main {
-    @apply max-w-5xl my-12 mx-auto px-8;
-  }
-  main > h2 {
-    @apply mb-4 pb-2 text-base ;
-  }
-  p > a {
-    @apply text-primary underline;
-  }
+  overflow-x: hidden;
+}
+
+/* Estilo para limitar a largura do conteúdo */
+.container {
+  max-width: 1200px; /* Define a largura máxima da página */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+  padding: 0 ; /* Adiciona um espaço interno nas laterais para o conteúdo */
+  overflow-x: hidden;
+}
 
