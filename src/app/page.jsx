@@ -14,6 +14,7 @@ import SectionHalf from './components/SectionHalf';
 import FeatureSection from './components/FeatureSection';
 //import { Divider } from 'react-daisyui';
 import Divider from './components/Divider';
+import { Fade } from "react-awesome-reveal";
 
 
 export default function Home() {
@@ -24,16 +25,19 @@ export default function Home() {
       
       <Hero />
       <SectionOne />
-      <Divider />
-      <CardList />
-      <Divider/>
-      <SectionHalf />
-      <Divider />
-      <FeatureSection />
-      <Divider />
-      <FAQ />
-      <Divider />
-      <CarouselHere />
+      
+        <Divider />
+        <CardList />
+        <Divider/>
+        <SectionHalf />
+        <Divider />
+        <FeatureSection />
+        <Divider />
+        <FAQ />
+        <Divider />
+        <CarouselHere />
+      
+      
       
       
       
