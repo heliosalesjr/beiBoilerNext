@@ -8,7 +8,10 @@ import Footer from './components/Footer';
 //import NavbarDark from './components/NavbarDark';
 import CarouselHere from './components/CarouselHere';
 import CardList from './components/CardList';
+import SectionOne from './components/SectionOne';
 import './globals.css'
+import SectionHalf from './components/SectionHalf';
+import FeatureSection from './components/FeatureSection';
 
 
 export default function Home() {
@@ -18,6 +21,10 @@ export default function Home() {
     <>
       
       <Hero />
+      <SectionOne />
+      <CardList />
+      <SectionHalf />
+      <FeatureSection />
       <FAQ />
       <CollapseHere />
       <CarouselHere />
@@ -25,7 +32,7 @@ export default function Home() {
           <Cardy /><Cardy /><Cardy />
       </div>
       
-      <CardList />
+      
     </>
   )
 }
